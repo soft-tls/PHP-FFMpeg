@@ -1,5 +1,5 @@
 {
-    "name": "php-ffmpeg/php-ffmpeg",
+    "name": "soft-tls/php-ffmpeg",
     "type": "library",
     "description": "FFMpeg PHP, an Object Oriented library to communicate with AVconv / ffmpeg",
     "keywords": [
@@ -48,10 +48,10 @@
     "require": {
         "php": "^8.0 || ^8.1 || ^8.2 || ^8.3 || ^8.4",
         "evenement/evenement": "^3.0",
-        "psr/log": "^1.0 || ^2.0 || ^3.0",
+        "psr/log": "^3.0",
         "spatie/temporary-directory": "^2.0",
-        "symfony/process": "^5.4 || ^6.0 || ^7.0",
-        "symfony/cache": "^5.4 || ^6.0 || ^7.0"
+        "symfony/process": "^7.0",
+        "symfony/cache": "^7.0"
     },
     "suggest": {
         "php-ffmpeg/extras": "A compilation of common audio & video drivers for PHP-FFMpeg"
